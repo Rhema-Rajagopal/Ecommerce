@@ -104,7 +104,6 @@ const AddProduct = () => {
 
       <div className="addproduct-itemfield">
         <label htmlFor="file-input">
-          {" "}
           <img
             src={image ? URL.createObjectURL(image) : upload_area}
             className="addproduct-thumnail-img"
@@ -125,7 +124,7 @@ const AddProduct = () => {
         }}
         className="addproduct-btn"
       >
-        ADD{" "}
+        ADD
       </button>
     </div>
   );
